@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+ENV/
+env/
+
+# Arquivos de configuração local
+*.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de build
+*.log
+*.pot
+*.py[cod]
+
+# Arquivos de banco locais
+*.sqlite3
+
+# Node.js (caso seu PWA use)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações do editor
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Outros
+subscriptions.json
